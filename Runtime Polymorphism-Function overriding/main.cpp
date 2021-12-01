@@ -1,3 +1,5 @@
+//https://www.javatpoint.com/cpp-interview-questions
+
 #include <iostream>
 using namespace std;
 
@@ -7,7 +9,6 @@ class Base
         virtual void show()
         {
             cout<< "javaTpoint";
-            
         }
         
 };
@@ -30,3 +31,4 @@ int main()
    
    return 0;
 };
+

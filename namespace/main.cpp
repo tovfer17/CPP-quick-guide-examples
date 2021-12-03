@@ -4,14 +4,16 @@ using namespace std;
 // first name space
 namespace first_space {
    void func() {
-      cout << "Inside first_space" << endl;
+      int val = 500; //notice how val is used here and 
+      cout << "Inside first_space" <<val<< endl;
    }
 }
 
 // second name space
 namespace second_space {
    void func() {
-      cout << "Inside second_space" << endl;
+      int val = 200; //here. namespace allows a way to avoid this confusion 
+      cout << "Inside second_space" << val<< endl;
    }
 }
 

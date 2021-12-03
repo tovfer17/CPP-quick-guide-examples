@@ -57,7 +57,8 @@ int main() {
    cout << "Volume of Box2 : " << volume <<endl;
 
    // Add two object as follows:
-   Box3 = Box1 + Box2;
+   Box3 = Box1 + Box2; //this first adds the lengths, then the breadths, then the heights 
+   //to then get the volume by mutiplying these values.
 
    // volume of box 3
    volume = Box3.getVolume();
